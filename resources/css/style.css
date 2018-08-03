@@ -17,11 +17,9 @@ body {
 
 @media only screen and (max-width: 1024px) {
 	.container {
-		width: 100%;
+		max-width: 100%;
 	}
 }
-
-
 
 /* Header */
 
@@ -32,6 +30,20 @@ header {
 	background-size: cover;
 	height: 30rem;
 	padding-top: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+	header {
+		height: 22rem;
+		padding-top: 0;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	header {
+		height: 17rem;
+		background-position: 20%;
+	}
 }
 
 /* Nav Bar */
@@ -65,6 +77,24 @@ nav li {
 	margin-right: 2rem;
 }
 
+.mobile-menu {
+	display: none;
+}
+
+@media only screen and (max-width: 650px) {
+	.menu {
+		display: none;
+	}
+
+	.mobile-menu {
+		display: block;
+	}
+
+	.logo span {
+		display: none;
+	}
+}
+
 /* Main Banner */
 
 header .flex {
@@ -89,12 +119,6 @@ header .flex {
 }
 
 @media only screen and (max-width: 1024px) {
-	
-	header {
-		height: 22rem;
-		padding-top: 0;
-	}
-
 	.main-banner {
 		margin-top: 5rem;
 		margin-right: 2rem;
@@ -106,6 +130,19 @@ header .flex {
 	}
 }
 
+@media only screen and (max-width: 650px) {
+	.main-banner {
+		width: 100%;
+		margin-top: 9rem;
+		margin-right: 0;
+	}
+
+	.main-banner h1 {
+		font-size: 1rem;
+		text-align: center;
+		padding: 1rem;
+	}
+}
 
 /* Services */
 
@@ -137,7 +174,22 @@ header .flex {
 	display: block;
 }
 
+@media only screen and (max-width: 650px) {
+	.services {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 3.77rem;
+		margin-bottom: 3.77rem;
+	}
 
+	.service {
+		margin: 1.54rem;
+	}
+
+	.service span {
+		font-size: 0.77rem;
+	}
+}
 
 /* Information */
 
@@ -161,7 +213,28 @@ header .flex {
 	margin-bottom: 1rem;
 }
 
+@media only screen and (max-width: 650px) {
+	.information {
+		flex-direction: column;
+		align-items: center;
+	}
 
+	.info {
+		width: 100%;
+		margin-bottom: 4rem;
+		margin-right: 0;
+	}
+
+	.title {
+		width: 100%;
+		text-align: center;
+	}
+
+	.info p {
+		width: 100%;
+		font-size: 0.77rem;
+	}
+}
 
 /* Footer */
 
@@ -177,7 +250,15 @@ footer img {
 	margin-right: 1rem;
 }
 
+@media only screen and (max-width: 650px) {
+	footer {
+		justify-content: center;
+	}
 
+	footer span {
+		display: none;
+	}
+}
 
 
 
