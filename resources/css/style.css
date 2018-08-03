@@ -82,6 +82,34 @@ header .flex {
 
 /* Services */
 
+.services {
+	display: flex;
+	justify-content: center;
+}
+
+.service {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	height: 8rem;
+	width: 5rem;
+	margin: 3rem;
+}
+
+.service img.paper-icon {
+	width: 3.5rem;
+}
+
+.service img {
+	width: 5rem;
+}
+
+.service span {
+	display: block;
+}
+
 
 
 
