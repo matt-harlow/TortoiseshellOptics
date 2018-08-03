@@ -3,8 +3,11 @@
 
 html {
 	font-size: 18px;
-	line-height: 1.4;
 	font-family: Helvetica, Sans-Serif;
+}
+
+body {
+	line-height: 1.4;
 }
 
 .container {
@@ -112,8 +115,43 @@ header .flex {
 
 
 
+/* Information */
+
+.information {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5rem;
+}
+
+.info {
+	width: 35%;
+	margin-right: 5%;
+}
+
+.title {
+	background-color: cadetblue;
+	color: white;
+	font-weight: bold;
+	width: 10rem;
+	padding: 0.5rem 1.25rem;
+	margin-bottom: 1rem;
+}
 
 
+
+/* Footer */
+
+footer {
+	background-color: azure;
+	display: flex;
+	align-items: center;
+	padding: 4rem;
+}
+
+footer img {
+	height: 1.5rem;
+	margin-right: 1rem;
+}
 
 
 
