@@ -183,7 +183,7 @@ header .flex {
 	}
 
 	.service {
-		margin: 1.54rem;
+		margin: 0.77rem;
 	}
 
 	.service span {
@@ -247,7 +247,7 @@ footer {
 
 footer img {
 	height: 1.5rem;
-	margin-right: 1rem;
+	
 }
 
 @media only screen and (max-width: 650px) {
